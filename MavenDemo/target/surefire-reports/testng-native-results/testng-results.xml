@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="25" started-at="2017-09-22T18:23:41Z" finished-at="2017-09-22T18:23:41Z">
+    <groups>
+      <group name="group1">
+        <method signature="GroupTest.GroupTest()[pri:0, instance:first.lesson.GroupTest@59a6e353]" name="GroupTest" class="first.lesson.GroupTest"/>
+        <method signature="TestngSecondDemo.SecondTest()[pri:0, instance:first.lesson.TestngSecondDemo@19dfb72a]" name="SecondTest" class="first.lesson.TestngSecondDemo"/>
+        <method signature="TestngSecondDemo.FirstTest()[pri:0, instance:first.lesson.TestngSecondDemo@19dfb72a]" name="FirstTest" class="first.lesson.TestngSecondDemo"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Command line test" duration-ms="25" started-at="2017-09-22T18:23:41Z" finished-at="2017-09-22T18:23:41Z">
+      <class name="first.lesson.TestngSecondDemo">
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:first.lesson.TestngSecondDemo@19dfb72a]" name="SecondTest" duration-ms="0" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="FourthTest()[pri:0, instance:first.lesson.TestngSecondDemo@19dfb72a]" name="FourthTest" duration-ms="2" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTest -->
+        <test-method status="PASS" signature="ThirdTest()[pri:0, instance:first.lesson.TestngSecondDemo@19dfb72a]" name="ThirdTest" duration-ms="0" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdTest -->
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:first.lesson.TestngSecondDemo@19dfb72a]" name="FirstTest" duration-ms="0" started-at="2017-09-22T14:23:41Z" depends-on-methods="first.lesson.TestngSecondDemo.SecondTest" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+      </class> <!-- first.lesson.TestngSecondDemo -->
+      <class name="first.lesson.TestngDemo">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:first.lesson.TestngDemo@1e643faf]" name="BeforeTest" is-config="true" duration-ms="7" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:first.lesson.TestngDemo@1e643faf]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:first.lesson.TestngDemo@1e643faf]" name="SecondTest" duration-ms="0" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:first.lesson.TestngDemo@1e643faf]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:first.lesson.TestngDemo@1e643faf]" name="FirstTest" duration-ms="0" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:first.lesson.TestngDemo@1e643faf]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:first.lesson.TestngDemo@1e643faf]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:first.lesson.TestngDemo@1e643faf]" name="AfterTest" is-config="true" duration-ms="0" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- first.lesson.TestngDemo -->
+      <class name="first.lesson.GroupTest">
+        <test-method status="PASS" signature="GroupTest()[pri:0, instance:first.lesson.GroupTest@59a6e353]" name="GroupTest" duration-ms="2" started-at="2017-09-22T14:23:41Z" finished-at="2017-09-22T14:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GroupTest -->
+      </class> <!-- first.lesson.GroupTest -->
+      <class name="first.lesson.ParamsTest">
+        <test-method status="PASS" signature="UserId(java.lang.String, java.lang.String)[pri:0, instance:first.lesson.ParamsTest@17c68925]" name="UserId" duration-ms="0" started-at="2017-09-22T14:23:41Z" data-provider="getData" finished-at="2017-09-22T14:23:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Emily]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Comp Sci]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserId -->
+        <test-method status="PASS" signature="UserId(java.lang.String, java.lang.String)[pri:0, instance:first.lesson.ParamsTest@17c68925]" name="UserId" duration-ms="0" started-at="2017-09-22T14:23:41Z" data-provider="getData" finished-at="2017-09-22T14:23:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Janet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Info Sys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserId -->
+      </class> <!-- first.lesson.ParamsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

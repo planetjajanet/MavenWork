@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="15" started-at="2017-09-22T17:22:47Z" finished-at="2017-09-22T17:22:47Z">
+    <groups>
+      <group name="group1">
+        <method signature="TestngSecondDemo.SecondTest()[pri:0, instance:first.lesson.TestngSecondDemo@5b464ce8]" name="SecondTest" class="first.lesson.TestngSecondDemo"/>
+        <method signature="TestngSecondDemo.FirstTest()[pri:0, instance:first.lesson.TestngSecondDemo@5b464ce8]" name="FirstTest" class="first.lesson.TestngSecondDemo"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="testingtesting" duration-ms="15" started-at="2017-09-22T17:22:47Z" finished-at="2017-09-22T17:22:47Z">
+      <class name="first.lesson.TestngSecondDemo">
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:first.lesson.TestngSecondDemo@5b464ce8]" name="FirstTest" duration-ms="0" started-at="2017-09-22T13:22:47Z" depends-on-methods="first.lesson.TestngSecondDemo.SecondTest" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="ThirdTest()[pri:0, instance:first.lesson.TestngSecondDemo@5b464ce8]" name="ThirdTest" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdTest -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:first.lesson.TestngSecondDemo@5b464ce8]" name="SecondTest" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="FourthTest()[pri:0, instance:first.lesson.TestngSecondDemo@5b464ce8]" name="FourthTest" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTest -->
+      </class> <!-- first.lesson.TestngSecondDemo -->
+      <class name="first.lesson.TestngDemo">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:first.lesson.TestngDemo@6a5fc7f7]" name="BeforeTest" is-config="true" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:first.lesson.TestngDemo@6a5fc7f7]" name="AfterTest" is-config="true" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:first.lesson.TestngDemo@6a5fc7f7]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:first.lesson.TestngDemo@6a5fc7f7]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:first.lesson.TestngDemo@6a5fc7f7]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:first.lesson.TestngDemo@6a5fc7f7]" name="FirstTest" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:first.lesson.TestngDemo@6a5fc7f7]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:first.lesson.TestngDemo@6a5fc7f7]" name="SecondTest" duration-ms="0" started-at="2017-09-22T13:22:47Z" finished-at="2017-09-22T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- first.lesson.TestngDemo -->
+    </test> <!-- testingtesting -->
+  </suite> <!-- Automation -->
+</testng-results>
